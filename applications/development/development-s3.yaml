@@ -10,8 +10,8 @@ metadata:
   namespace: development
 spec:
   bucketName: "myapp-dev-storage"
-  environment: "dev"
-  tier: "basic"
+  environment: "prod"
+  tier: "premium"
   writeConnectionSecretsToNamespace: "development"
   tags:
     CostCenter: "engineering"
